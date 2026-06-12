@@ -1,12 +1,13 @@
 {
   "latestVersion": "0.9",
-  "releaseDate": "2026-06-12",
+  "releaseDate": "2026-06-13",
   "releaseNotes": [
-    "(2026/06/12 更新) 以下のような修正を行いました。",
-    "・ロード時にネイトのスキルが消失する不具合を修正しました",
-    "・オートセーブ機能を改修しました。",
-    "・難易度選択機能を追加しました。",
-    "・新アルカステラ『プシケ』を実装しました。"
+    "(2026/06/13 更新) 以下のような修正を行いました。",
+    "ゲームをロード時、ネイトのスキルが消失する不具合を修正",
+    "ゲーム容量が4.21GB→2.64GBになりました",
+    "難易度選択機能を追加しました",
+    "ネイトのスキル2種、イベント2種が追加されました",
+    "新アルカステラ『プシケ』を実装しました"
   ],
   "files": [
     {
@@ -162,7 +163,7 @@
     {
       "path": "NateTrainingPlan_Data/boot.config",
       "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@boot.config",
-      "md5": "893fdaf131e04aebf7cf26c0e17a435b",
+      "md5": "8aa56f9adb4a01182abd3c3cdc99535b",
       "size": 164
     },
     {
@@ -186,8 +187,8 @@
     {
       "path": "NateTrainingPlan_Data/level0",
       "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@level0",
-      "md5": "ac448ad486b37a5e88ee6b830f4b3a74",
-      "size": 522892
+      "md5": "1e959a18f8ab5c0cd9a9a1e726da852a",
+      "size": 523052
     },
     {
       "path": "NateTrainingPlan_Data/level1",
@@ -300,8 +301,8 @@
     {
       "path": "NateTrainingPlan_Data/Managed/Assembly-CSharp.dll",
       "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Assembly-CSharp.dll",
-      "md5": "ff7c186a3ce8eac10e48398f262da86f",
-      "size": 1616384
+      "md5": "958b1329d3acb9041546fdc7a7ccee8e",
+      "size": 1616896
     },
     {
       "path": "NateTrainingPlan_Data/Managed/Mono.Security.dll",
