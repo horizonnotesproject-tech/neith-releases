@@ -1,0 +1,985 @@
+{
+  "latestVersion": "0.9",
+  "releaseDate": "2026-06-12",
+  "releaseNotes": [
+    "(2026/06/12 更新) 以下のような修正を行いました。",
+    "・ロード時にネイトのスキルが消失する不具合を修正しました",
+    "・オートセーブ機能を改修しました。",
+    "・難易度選択機能を追加しました。",
+    "・新アルカステラ『プシケ』を実装しました。"
+  ],
+  "files": [
+    {
+      "path": "NateTrainingPlan.exe",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan.exe",
+      "md5": "d33f314f806fe4698bca5221132a3c60",
+      "size": 666624
+    },
+    {
+      "path": "UnityCrashHandler64.exe",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/UnityCrashHandler64.exe",
+      "md5": "20d65004bc5b4773f9a62039139435fc",
+      "size": 1185192
+    },
+    {
+      "path": "UnityPlayer.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/UnityPlayer.dll",
+      "md5": "5c814fa68424291ff24d9d1c2f8921db",
+      "size": 31100848
+    },
+    {
+      "path": "MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@EmbedRuntime@mono-2.0-bdwgc.dll",
+      "md5": "dc86ec36769ddf84b650d12bf145c3e1",
+      "size": 7897512
+    },
+    {
+      "path": "MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@EmbedRuntime@MonoPosixHelper.dll",
+      "md5": "125b975ecbed1a2a43f84f276b04dc38",
+      "size": 611240
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/browscap.ini",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@etc@mono@browscap.ini",
+      "md5": "378be809df7d15aac75a175693e25fbb",
+      "size": 311984
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/config",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@etc@mono@config",
+      "md5": "67611b783439b35abfe05a97413bba46",
+      "size": 3815
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@etc@mono@2.0@DefaultWsdlHelpGenerator.aspx",
+      "md5": "f7be9f1841ff92f9d4040aed832e0c79",
+      "size": 60575
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/2.0/machine.config",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@etc@mono@2.0@machine.config",
+      "md5": "5b791b8493c4e9a55d8c5ee522ce1cef",
+      "size": 29066
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/2.0/settings.map",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@etc@mono@2.0@settings.map",
+      "md5": "22c818a23169e12bd3c8587b6394c731",
+      "size": 2622
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/2.0/web.config",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@etc@mono@2.0@web.config",
+      "md5": "dc6dd6d8d1fc74e76c84b0b38dc6b1e3",
+      "size": 11635
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@etc@mono@2.0@Browsers@Compat.browser",
+      "md5": "0d831c1264b5b32a39fa347de368fe48",
+      "size": 1605
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@etc@mono@4.0@DefaultWsdlHelpGenerator.aspx",
+      "md5": "f7be9f1841ff92f9d4040aed832e0c79",
+      "size": 60575
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.0/machine.config",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@etc@mono@4.0@machine.config",
+      "md5": "32bf879734966ef6659d914a217691e0",
+      "size": 33598
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.0/settings.map",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@etc@mono@4.0@settings.map",
+      "md5": "ba17ade8a8e3ee221377534c8136f617",
+      "size": 2622
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.0/web.config",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@etc@mono@4.0@web.config",
+      "md5": "d081581e16b06480a5aaef8cdfb305ab",
+      "size": 18802
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@etc@mono@4.0@Browsers@Compat.browser",
+      "md5": "0d831c1264b5b32a39fa347de368fe48",
+      "size": 1605
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@etc@mono@4.5@DefaultWsdlHelpGenerator.aspx",
+      "md5": "f7be9f1841ff92f9d4040aed832e0c79",
+      "size": 60575
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.5/machine.config",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@etc@mono@4.5@machine.config",
+      "md5": "25ff1ec49e3ac9285bd943cf036bd813",
+      "size": 34056
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.5/settings.map",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@etc@mono@4.5@settings.map",
+      "md5": "ba17ade8a8e3ee221377534c8136f617",
+      "size": 2622
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.5/web.config",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@etc@mono@4.5@web.config",
+      "md5": "5075af18fe1d2b5f9555d5cc68029814",
+      "size": 18811
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@etc@mono@4.5@Browsers@Compat.browser",
+      "md5": "0d831c1264b5b32a39fa347de368fe48",
+      "size": 1605
+    },
+    {
+      "path": "MonoBleedingEdge/etc/mono/mconfig/config.xml",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/MonoBleedingEdge@etc@mono@mconfig@config.xml",
+      "md5": "f34b330f20dce1bdcce9058fca287099",
+      "size": 25817
+    },
+    {
+      "path": "NateTrainingPlan_BurstDebugInformation_DoNotShip/Data/Plugins/x86_64/lib_burst_generated.txt",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_BurstDebugInformation_DoNotShip@Data@Plugins@x86_64@lib_burst_generated.txt",
+      "md5": "cd7bca58e90d3a033ad6b92aa4a33be1",
+      "size": 16248
+    },
+    {
+      "path": "NateTrainingPlan_Data/app.info",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@app.info",
+      "md5": "1f8c709dc03d2a2330a07307e8a6544f",
+      "size": 29
+    },
+    {
+      "path": "NateTrainingPlan_Data/boot.config",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@boot.config",
+      "md5": "893fdaf131e04aebf7cf26c0e17a435b",
+      "size": 164
+    },
+    {
+      "path": "NateTrainingPlan_Data/globalgamemanagers",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@globalgamemanagers",
+      "md5": "f5d3daa654b55bf6447d051b8e3e2c4a",
+      "size": 216676
+    },
+    {
+      "path": "NateTrainingPlan_Data/globalgamemanagers.assets",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@globalgamemanagers.assets",
+      "md5": "9101aecfda82e2b4dcdaaa71115c2234",
+      "size": 318616
+    },
+    {
+      "path": "NateTrainingPlan_Data/globalgamemanagers.assets.resS",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@globalgamemanagers.assets.resS",
+      "md5": "7423e95b309c209a70c3b8112f61d473",
+      "size": 2796240
+    },
+    {
+      "path": "NateTrainingPlan_Data/level0",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@level0",
+      "md5": "ac448ad486b37a5e88ee6b830f4b3a74",
+      "size": 522892
+    },
+    {
+      "path": "NateTrainingPlan_Data/level1",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@level1",
+      "md5": "2f028f88effee6dee9e3e92cc69666c9",
+      "size": 90696
+    },
+    {
+      "path": "NateTrainingPlan_Data/level1.resS",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@level1.resS",
+      "md5": "bb858b7256cb4e3a3080baf68ab3da0d",
+      "size": 131232
+    },
+    {
+      "path": "NateTrainingPlan_Data/level2",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@level2",
+      "md5": "7a0a67d9593caddf7752bfc03c3899e6",
+      "size": 117976
+    },
+    {
+      "path": "NateTrainingPlan_Data/level2.resS",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@level2.resS",
+      "md5": "bb858b7256cb4e3a3080baf68ab3da0d",
+      "size": 131232
+    },
+    {
+      "path": "NateTrainingPlan_Data/resources.assets",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets",
+      "md5": "f45ca870b59df8c2d4e3ae3d0655317b",
+      "size": 10509704
+    },
+    {
+      "path": "NateTrainingPlan_Data/resources.assets.resS",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS",
+      "md5": "846813f06127f6752eaa5df4ec306926",
+      "size": 1769047872
+    },
+    {
+      "path": "NateTrainingPlan_Data/resources.resource",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.resource",
+      "md5": "cdadb3135b7efd1c4d27d2932ba4e52b",
+      "size": 86470304
+    },
+    {
+      "path": "NateTrainingPlan_Data/RuntimeInitializeOnLoads.json",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@RuntimeInitializeOnLoads.json",
+      "md5": "d96c51066452ea789d4411f78a735f1f",
+      "size": 891
+    },
+    {
+      "path": "NateTrainingPlan_Data/ScriptingAssemblies.json",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@ScriptingAssemblies.json",
+      "md5": "3185f753dc3bd38381c9841e35b5452c",
+      "size": 3353
+    },
+    {
+      "path": "NateTrainingPlan_Data/sharedassets0.assets",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets0.assets",
+      "md5": "8fc9a352297de441500950becdc01ade",
+      "size": 22214968
+    },
+    {
+      "path": "NateTrainingPlan_Data/sharedassets0.assets.resS",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets0.assets.resS",
+      "md5": "735d330f22468c5b963ad51a58e93f35",
+      "size": 460776272
+    },
+    {
+      "path": "NateTrainingPlan_Data/sharedassets0.resource",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets0.resource",
+      "md5": "dd594cc932e704e2d8e87024897dd713",
+      "size": 56384736
+    },
+    {
+      "path": "NateTrainingPlan_Data/sharedassets1.assets",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets1.assets",
+      "md5": "bf49dc7945997ab808b988cd1fa5a8b6",
+      "size": 458040
+    },
+    {
+      "path": "NateTrainingPlan_Data/sharedassets1.assets.resS",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets1.assets.resS",
+      "md5": "fb599d57e43e7d26ea17ca722002dac0",
+      "size": 198795056
+    },
+    {
+      "path": "NateTrainingPlan_Data/sharedassets1.resource",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets1.resource",
+      "md5": "1ddb985bc1dcdc359595f7742b46120e",
+      "size": 72192
+    },
+    {
+      "path": "NateTrainingPlan_Data/sharedassets2.assets",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets2.assets",
+      "md5": "578207a6668eded4e3e4e0ae06efa75a",
+      "size": 74916
+    },
+    {
+      "path": "NateTrainingPlan_Data/sharedassets2.assets.resS",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets2.assets.resS",
+      "md5": "3a6fea7eba816ad136e87a0f865896fe",
+      "size": 4194304
+    },
+    {
+      "path": "NateTrainingPlan_Data/sharedassets2.resource",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets2.resource",
+      "md5": "55e4ac9c7133f16728982b9fb85f56d4",
+      "size": 6560
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Assembly-CSharp.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Assembly-CSharp.dll",
+      "md5": "ff7c186a3ce8eac10e48398f262da86f",
+      "size": 1616384
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Mono.Security.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Mono.Security.dll",
+      "md5": "8c3dfe3622f2d3f424a86b4ce9ea4323",
+      "size": 241152
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/mscorlib.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@mscorlib.dll",
+      "md5": "dc19bee2583db762c8afe9a036177b88",
+      "size": 4631552
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/netstandard.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@netstandard.dll",
+      "md5": "c61967ebe7f07f6a5a1b3f91842bbc3c",
+      "size": 90112
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/System.ComponentModel.Composition.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@System.ComponentModel.Composition.dll",
+      "md5": "994e7559cecf548da3b9c9fa5ca8d557",
+      "size": 257024
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/System.Configuration.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@System.Configuration.dll",
+      "md5": "c135ee67e8a950804c9edbef4e7395c6",
+      "size": 124928
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/System.Core.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@System.Core.dll",
+      "md5": "9aebcd90094a77fc1e4ad2c50948f6a5",
+      "size": 1113088
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/System.Data.DataSetExtensions.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@System.Data.DataSetExtensions.dll",
+      "md5": "c1b5a02a79d0e9ec5f9ac283209f682c",
+      "size": 29696
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/System.Data.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@System.Data.dll",
+      "md5": "58923ba4b2abbea9b2e2c64d1ed09b6a",
+      "size": 2125312
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/System.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@System.dll",
+      "md5": "35734d2a222e2935d305eaf3e79bb6fc",
+      "size": 2639872
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/System.Drawing.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@System.Drawing.dll",
+      "md5": "e7afc0a4290c9ca619e212903a26b9b5",
+      "size": 489984
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/System.EnterpriseServices.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@System.EnterpriseServices.dll",
+      "md5": "354b3e901ea9a94956e072233f2c26cb",
+      "size": 44544
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/System.IO.Compression.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@System.IO.Compression.dll",
+      "md5": "47cf18ef16a7986b201a5a57a8c291f8",
+      "size": 114688
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/System.IO.Compression.FileSystem.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@System.IO.Compression.FileSystem.dll",
+      "md5": "5c1290e725b3596882f59f2fe3eac632",
+      "size": 18432
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/System.Net.Http.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@System.Net.Http.dll",
+      "md5": "4f50819611f33c0c39284ab3f528b382",
+      "size": 122880
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/System.Numerics.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@System.Numerics.dll",
+      "md5": "fed842f66dcaab2578527e418877515e",
+      "size": 119296
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/System.Runtime.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@System.Runtime.dll",
+      "md5": "77d74adcdea84d53a1fbe89e79737c1e",
+      "size": 12288
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/System.Runtime.Serialization.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@System.Runtime.Serialization.dll",
+      "md5": "2d68987ecad5ae9cc39da1ed94529467",
+      "size": 934400
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/System.Security.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@System.Security.dll",
+      "md5": "278fe61e9d38a72dc1fe01196b934db5",
+      "size": 320000
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/System.ServiceModel.Internals.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@System.ServiceModel.Internals.dll",
+      "md5": "edb86010be1d763513004985c583cda7",
+      "size": 215040
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/System.Transactions.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@System.Transactions.dll",
+      "md5": "c7eb2e7d575ff7fa384035a8ec5b91af",
+      "size": 35328
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/System.Xml.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@System.Xml.dll",
+      "md5": "2e3ebf817bcb3420e832182d71a1f2f8",
+      "size": 3160064
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/System.Xml.Linq.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@System.Xml.Linq.dll",
+      "md5": "72a6e8f60cedca80c900410fcb811c55",
+      "size": 136704
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Unity.Burst.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Unity.Burst.dll",
+      "md5": "457ecfdebfdd8578fa3280cd19ef7515",
+      "size": 317440
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Unity.Burst.Unsafe.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Unity.Burst.Unsafe.dll",
+      "md5": "129351e9879a83262ea92a4a45aacc46",
+      "size": 5632
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Unity.Mathematics.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Unity.Mathematics.dll",
+      "md5": "98d3700a98f9c04067a6410b60fea1a7",
+      "size": 741376
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Unity.Postprocessing.Runtime.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Unity.Postprocessing.Runtime.dll",
+      "md5": "88a03d8d7814baebc069cc162592b033",
+      "size": 162816
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+      "md5": "f741bf4fb8d3979f587f7930c7226c8b",
+      "size": 8192
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Unity.RenderPipelines.Core.Runtime.dll",
+      "md5": "c53499a9988a9ec410510ab2fbedbd5c",
+      "size": 528896
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Unity.RenderPipelines.Core.ShaderLibrary.dll",
+      "md5": "e5ab40ce51814a569a2c15c617122b9b",
+      "size": 4608
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+      "md5": "183bdd1b0fa5bd0b097c7574862a70d4",
+      "size": 4608
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Unity.RenderPipelines.Universal.2D.Internal.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Unity.RenderPipelines.Universal.2D.Internal.dll",
+      "md5": "2d8bfe950a7a171d047003ec574bd978",
+      "size": 5120
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Unity.RenderPipelines.Universal.Config.Runtime.dll",
+      "md5": "54510ae83103424a08452d5a0d6395cc",
+      "size": 5632
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Unity.RenderPipelines.Universal.Runtime.dll",
+      "md5": "a10898bb5ee7d777ad0f187e490406b3",
+      "size": 787968
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Unity.RenderPipelines.Universal.Shaders.dll",
+      "md5": "e2214918d06faa0dee30fc58c247e3cf",
+      "size": 4608
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Unity.TextMeshPro.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Unity.TextMeshPro.dll",
+      "md5": "df53b8bb4ba87c17d262fa623175c8c2",
+      "size": 380416
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Unity.Timeline.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Unity.Timeline.dll",
+      "md5": "58753825d3d2d7737852e8d3ad31b2c3",
+      "size": 127488
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Unity.VisualScripting.Antlr3.Runtime.dll",
+      "md5": "62a6ef88ac683a13104417515323896b",
+      "size": 86016
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Unity.VisualScripting.Core.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Unity.VisualScripting.Core.dll",
+      "md5": "f624b991d25a943c18614041c0deafc6",
+      "size": 625152
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Unity.VisualScripting.Flow.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Unity.VisualScripting.Flow.dll",
+      "md5": "4c10fbe8319a1af720d8f849f9286fef",
+      "size": 401408
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/Unity.VisualScripting.State.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@Unity.VisualScripting.State.dll",
+      "md5": "cc9de09de57d7bd2c727bd36858ad08b",
+      "size": 32256
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.AccessibilityModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.AccessibilityModule.dll",
+      "md5": "72eeb8c6450133067a9267a93e0df5c6",
+      "size": 23976
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.AIModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.AIModule.dll",
+      "md5": "3e88870db27fa5e6efbf7c95e8189077",
+      "size": 58792
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.AndroidJNIModule.dll",
+      "md5": "4ff851d67eeb9a1e16e237e8e256ee3b",
+      "size": 95144
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.AnimationModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.AnimationModule.dll",
+      "md5": "208ffff85b7fbf19d45dbf0a1c53381d",
+      "size": 164272
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.ARModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.ARModule.dll",
+      "md5": "b23e977dd866d4cecfa9ee71db679159",
+      "size": 21424
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.AssetBundleModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.AssetBundleModule.dll",
+      "md5": "76e49536840a2ae00e4b812bd8db569d",
+      "size": 33192
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.AudioModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.AudioModule.dll",
+      "md5": "2552ce287815ed025d695024f2f7107c",
+      "size": 71592
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.ClothModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.ClothModule.dll",
+      "md5": "09f7998967e22636817e2a8f06171b08",
+      "size": 26544
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.ClusterInputModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.ClusterInputModule.dll",
+      "md5": "bd647e25f7953c6996bf6df3076a4df9",
+      "size": 21936
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.ClusterRendererModule.dll",
+      "md5": "fb6bd47ef14b339e53ea38fd6b6e1f9b",
+      "size": 22440
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.ContentLoadModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.ContentLoadModule.dll",
+      "md5": "9ab29610e51479988195ba2988927b48",
+      "size": 27568
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.CoreModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.CoreModule.dll",
+      "md5": "40b823a57fb2d5a9b971dbdaaf6cdef8",
+      "size": 1393584
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.CrashReportingModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.CrashReportingModule.dll",
+      "md5": "dd4bdcada14d61ecc36830a68ca3797a",
+      "size": 21416
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.DirectorModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.DirectorModule.dll",
+      "md5": "04c6dfcd4ec5a5df9d91b6345228e43e",
+      "size": 25000
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.dll",
+      "md5": "1490e56ed7835c3dc7670c02ffa8ac7b",
+      "size": 126896
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.DSPGraphModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.DSPGraphModule.dll",
+      "md5": "21686a9027057df1310fa411277b4857",
+      "size": 29608
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.GameCenterModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.GameCenterModule.dll",
+      "md5": "c82e8884052131088bc0ac72fb8f5ad8",
+      "size": 40360
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.GIModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.GIModule.dll",
+      "md5": "f6d155921f6452d55249fe0e87f38a9b",
+      "size": 20392
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.GridModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.GridModule.dll",
+      "md5": "3103dbbde60c789b2e84a38e30de7262",
+      "size": 25512
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.HotReloadModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.HotReloadModule.dll",
+      "md5": "536950562e0f146c8777180d2c9885a0",
+      "size": 20392
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.ImageConversionModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.ImageConversionModule.dll",
+      "md5": "bdcaafc85093acf6ea7ca76855f5521e",
+      "size": 24496
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.IMGUIModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.IMGUIModule.dll",
+      "md5": "f1f28414b6cca4b6090f5d2e710ebf74",
+      "size": 191400
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.InputLegacyModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.InputLegacyModule.dll",
+      "md5": "4a754b316dbd8c03e6dbf239c4d0293a",
+      "size": 39336
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.InputModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.InputModule.dll",
+      "md5": "a462efdcdc15eed4b465d6eda57940b6",
+      "size": 23976
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.JSONSerializeModule.dll",
+      "md5": "205ec79326149f7d074a06423c6cee4c",
+      "size": 22440
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.LocalizationModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.LocalizationModule.dll",
+      "md5": "a7e908c15ea7c694510656d56d750173",
+      "size": 21416
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.NVIDIAModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.NVIDIAModule.dll",
+      "md5": "5f6529817a81c765364c0cef36071aeb",
+      "size": 34216
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.ParticleSystemModule.dll",
+      "md5": "a112e11e102165f781a5e3dd513de31d",
+      "size": 161704
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.PerformanceReportingModule.dll",
+      "md5": "a6978c641dbb4743d43736f96c3f4233",
+      "size": 20904
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.Physics2DModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.Physics2DModule.dll",
+      "md5": "9022ed22016faa4fed9a6443da40a834",
+      "size": 141736
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.PhysicsModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.PhysicsModule.dll",
+      "md5": "7febe76a883807fb9faa070b5572507a",
+      "size": 138672
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.ProfilerModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.ProfilerModule.dll",
+      "md5": "626d1aa0772d29b6c323ce41a0636fa7",
+      "size": 20400
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.PropertiesModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.PropertiesModule.dll",
+      "md5": "d6727b8abbc39a5ee80e779c1f2c02f5",
+      "size": 155560
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+      "md5": "ef51d149629c9b3fa0a613a443742ddc",
+      "size": 20400
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.ScreenCaptureModule.dll",
+      "md5": "a1796970be03725ed26ebc23320eab70",
+      "size": 21424
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.SharedInternalsModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.SharedInternalsModule.dll",
+      "md5": "2de9575c1d30e6b2657bede00aa550ad",
+      "size": 33192
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.SpriteMaskModule.dll",
+      "md5": "737e5bd2b7a66b1e7a5874da46e63dfd",
+      "size": 22440
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.SpriteShapeModule.dll",
+      "md5": "055762f6d7f62352a4e65e8f82d0b0ac",
+      "size": 26544
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.StreamingModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.StreamingModule.dll",
+      "md5": "2bb6b341655f75c07b06dbda5bda0ad2",
+      "size": 20904
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.SubstanceModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.SubstanceModule.dll",
+      "md5": "31bea3024abc06f5a9415486944c2b57",
+      "size": 25008
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.SubsystemsModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.SubsystemsModule.dll",
+      "md5": "6ef4f57015042aa0242d61cb3a5d2e8d",
+      "size": 35240
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.TerrainModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.TerrainModule.dll",
+      "md5": "0ee15fb1cf6b64396a136e6e2be9bdca",
+      "size": 101296
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.TerrainPhysicsModule.dll",
+      "md5": "e4d45e5cc5557e6691f31100ca07cc8a",
+      "size": 21424
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.TextCoreFontEngineModule.dll",
+      "md5": "da3ed413d901b7a7d7bfbfca6c11374f",
+      "size": 72624
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.TextCoreTextEngineModule.dll",
+      "md5": "85314bb6c7c66972e8b78dcec336b2f3",
+      "size": 249264
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.TextRenderingModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.TextRenderingModule.dll",
+      "md5": "1c5a496c7d68ab033e2c2e05940ee248",
+      "size": 39336
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.TilemapModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.TilemapModule.dll",
+      "md5": "af3fd3a317c9d017b9655e50e24c921f",
+      "size": 47016
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.TLSModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.TLSModule.dll",
+      "md5": "a0f768bc9b393fdfa923f6631f39b56a",
+      "size": 27048
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.UI.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.UI.dll",
+      "md5": "c671f6a271c5217501133cb002e22115",
+      "size": 265216
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.UIElementsModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.UIElementsModule.dll",
+      "md5": "b266bcd0adbd429ca769968391127af0",
+      "size": 1536424
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.UIModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.UIModule.dll",
+      "md5": "6d898d830b0a0779c17cd45278ee477f",
+      "size": 36784
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.UmbraModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.UmbraModule.dll",
+      "md5": "538d85f1aa885a22f329138629fd09a1",
+      "size": 20400
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.UnityAnalyticsCommonModule.dll",
+      "md5": "0dc856f801188f28952973947bd20356",
+      "size": 21416
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.UnityAnalyticsModule.dll",
+      "md5": "b3ee3f912bf27c9de9de9ac77b45f909",
+      "size": 44976
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.UnityConnectModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.UnityConnectModule.dll",
+      "md5": "474ad8e9b36ce9ccb6cee2b8893d152d",
+      "size": 22440
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.UnityCurlModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.UnityCurlModule.dll",
+      "md5": "3a4eb70996b39ffd229a45c9c2be1b6f",
+      "size": 21936
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.UnityTestProtocolModule.dll",
+      "md5": "6dd1bffa618327d6bd78c2cf5654902b",
+      "size": 20392
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "md5": "b5a86c6eea77b9e0b755c0c4bc98a382",
+      "size": 23472
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.UnityWebRequestAudioModule.dll",
+      "md5": "4fe7f83446978d38bb3c809d7588c68a",
+      "size": 22960
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.UnityWebRequestModule.dll",
+      "md5": "c8af34599f2cc759304b360816549d1b",
+      "size": 58800
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.UnityWebRequestTextureModule.dll",
+      "md5": "7900f8bf9d30d0401096eea1d0eeac4d",
+      "size": 21928
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.UnityWebRequestWWWModule.dll",
+      "md5": "4e7fd3757cc3c9c946f8671a450d1889",
+      "size": 31664
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.VehiclesModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.VehiclesModule.dll",
+      "md5": "dd2665b8f4bc2615f9ed9ea719757e3c",
+      "size": 24496
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.VFXModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.VFXModule.dll",
+      "md5": "56ad37da3b6129290d2c0fc08084338b",
+      "size": 58800
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.VideoModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.VideoModule.dll",
+      "md5": "0f007610b013b12b8ee5635aef576ae5",
+      "size": 41384
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.VirtualTexturingModule.dll",
+      "md5": "16ade4f0aa877a404729f6c8cf348737",
+      "size": 36272
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.VRModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.VRModule.dll",
+      "md5": "b0137e5d736e97299671542dee5fad4b",
+      "size": 27056
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.WindModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.WindModule.dll",
+      "md5": "99f89fb33d37e87266de438db8a03c07",
+      "size": 21416
+    },
+    {
+      "path": "NateTrainingPlan_Data/Managed/UnityEngine.XRModule.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Managed@UnityEngine.XRModule.dll",
+      "md5": "0eeab6943fceb6f6c1bb92ba6fc83a8e",
+      "size": 71080
+    },
+    {
+      "path": "NateTrainingPlan_Data/Plugins/x86_64/libonigwrap.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Plugins@x86_64@libonigwrap.dll",
+      "md5": "ab2bd6d029d63fcf779f2032af98a5f8",
+      "size": 551336
+    },
+    {
+      "path": "NateTrainingPlan_Data/Plugins/x86_64/lib_burst_generated.dll",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Plugins@x86_64@lib_burst_generated.dll",
+      "md5": "5b7c79f59a75dadccc3db1d5dc533ee1",
+      "size": 91136
+    },
+    {
+      "path": "NateTrainingPlan_Data/Resources/unity default resources",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Resources@unity default resources",
+      "md5": "c9730fe286df07729a2811fbe1dfbede",
+      "size": 1564240
+    },
+    {
+      "path": "NateTrainingPlan_Data/Resources/unity_builtin_extra",
+      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@Resources@unity_builtin_extra",
+      "md5": "c438296d1aba7ac77afd573835d325a5",
+      "size": 376508
+    }
+  ]
+}
