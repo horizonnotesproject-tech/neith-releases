@@ -4,7 +4,7 @@
   "releaseNotes": [
     "(2026/06/13 更新) 以下のような修正を行いました。",
     "ゲームをロード時、ネイトのスキルが消失する不具合を修正",
-    "ゲーム容量が4.21GB→2.64GBになりました",
+    "ゲーム容量が4.21GB→2.64GBに削減しました",
     "難易度選択機能を追加しました",
     "ネイトのスキル2種、イベント2種が追加されました",
     "新アルカステラ『プシケ』を実装しました"
@@ -222,9 +222,180 @@
     },
     {
       "path": "NateTrainingPlan_Data/resources.assets.resS",
-      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS",
       "md5": "846813f06127f6752eaa5df4ec306926",
-      "size": 1769047872
+      "size": 1769047872,
+      "chunks": [
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part000",
+          "md5": "ba3eab35259a36fa9ba336f68f0ac233",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part001",
+          "md5": "dab6bb69f525895c31d53b222f59a5bf",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part002",
+          "md5": "7f0c59b41ee8ecd950b10d1fb0f8ee89",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part003",
+          "md5": "dfc2148fb7496778ed359af1530ea160",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part004",
+          "md5": "a30eb76c28f25b95e3b7ac28e848fd7a",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part005",
+          "md5": "e74e24e2161ed2169a3824985dffeebd",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part006",
+          "md5": "3d1e0d024fa63cb8d040e405f944f94d",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part007",
+          "md5": "d2929561b1fb3942f0c8ce1a5331e675",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part008",
+          "md5": "8d738f0579d25758751acc142fcb26e5",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part009",
+          "md5": "ed0886e5bda3007260f3eee8a56a6946",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part010",
+          "md5": "2fda924332251a1d9853b1316df6190a",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part011",
+          "md5": "87811721f625581ea1a6a92039ab8021",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part012",
+          "md5": "48c3adc707716bc611b75d7bbebe8501",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part013",
+          "md5": "d8b9ce3e1fadf01e2c48a1dbdb373725",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part014",
+          "md5": "72945270b8171b1c320d054c229bc8b0",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part015",
+          "md5": "946abf4c01f9171784bb1e11f1a8f220",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part016",
+          "md5": "aae29b33af662bc974463b17fb170ae7",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part017",
+          "md5": "4184e43600c1c5aba30a139a5249534d",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part018",
+          "md5": "a2904bdccaf59aa591eede2183f4c24b",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part019",
+          "md5": "9301286d0aed72947acfbcf7e34f7786",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part020",
+          "md5": "847abc1abf1d95ef9a1d022b3943c86f",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part021",
+          "md5": "2960e0fe05960a823bb74962b2cb293f",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part022",
+          "md5": "b383a621012a9a5807b56df7265cd6ac",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part023",
+          "md5": "426dcc14ddd15f27d070f38bf517628a",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part024",
+          "md5": "6c1171e5a45f97569c0cec8d82e465bb",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part025",
+          "md5": "7dcf770aea4a408a192e7dfa6dfd1439",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part026",
+          "md5": "7e2de226917a75b99d6f459b28df296b",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part027",
+          "md5": "005ac52778cfea066145ffd1aad95880",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part028",
+          "md5": "857e4e24d99cf64af6a4183e28a16f26",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part029",
+          "md5": "97216f799560b949ff8524a3db6a7c60",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part030",
+          "md5": "7d935264e1899eae8fdea6cccb6d26e8",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part031",
+          "md5": "7003e95e466a739ebf5c5208bb1bd153",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part032",
+          "md5": "8dd6990d4a0cfafb0f29c09b4b47141c",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@resources.assets.resS.part033",
+          "md5": "6568b74cbadd6e9f5058ed4595214bdc",
+          "size": 38897472
+        }
+      ]
     },
     {
       "path": "NateTrainingPlan_Data/resources.resource",
@@ -252,9 +423,55 @@
     },
     {
       "path": "NateTrainingPlan_Data/sharedassets0.assets.resS",
-      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets0.assets.resS",
       "md5": "735d330f22468c5b963ad51a58e93f35",
-      "size": 460776272
+      "size": 460776272,
+      "chunks": [
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets0.assets.resS.part000",
+          "md5": "a1f4a792ff8d26db107d9bf3bc6d8783",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets0.assets.resS.part001",
+          "md5": "1c37f39e406df1090ac4701f6a5b4f08",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets0.assets.resS.part002",
+          "md5": "21f6f36383b2e1cca435a93c7f8b535a",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets0.assets.resS.part003",
+          "md5": "a8abf9f1279d3b64e007f4ecdd4191db",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets0.assets.resS.part004",
+          "md5": "d5e3995f0a4b40879df1e1219430bfb7",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets0.assets.resS.part005",
+          "md5": "c97aea754f917d751c02d0e31c0ed0fa",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets0.assets.resS.part006",
+          "md5": "6841ccf1ef29c3f4d7b25724b6349240",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets0.assets.resS.part007",
+          "md5": "6c06d0d89581d192beb293f0a25cb6e1",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets0.assets.resS.part008",
+          "md5": "4f79a3122af3d0c6b87dfe02d9008ce7",
+          "size": 41345872
+        }
+      ]
     },
     {
       "path": "NateTrainingPlan_Data/sharedassets0.resource",
@@ -270,9 +487,30 @@
     },
     {
       "path": "NateTrainingPlan_Data/sharedassets1.assets.resS",
-      "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets1.assets.resS",
       "md5": "fb599d57e43e7d26ea17ca722002dac0",
-      "size": 198795056
+      "size": 198795056,
+      "chunks": [
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets1.assets.resS.part000",
+          "md5": "5331ca6b7ce07526e56e475935e392e0",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets1.assets.resS.part001",
+          "md5": "3166b5b6b538af4996654cc67bd74d0e",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets1.assets.resS.part002",
+          "md5": "311896ad6c7585f129f56e61161a7e95",
+          "size": 52428800
+        },
+        {
+          "url": "https://github.com/horizonnotesproject-tech/neith-releases/releases/download/v0.9/NateTrainingPlan_Data@sharedassets1.assets.resS.part003",
+          "md5": "873d721bedd96572cd41fb8b9d6dacfe",
+          "size": 41508656
+        }
+      ]
     },
     {
       "path": "NateTrainingPlan_Data/sharedassets1.resource",
